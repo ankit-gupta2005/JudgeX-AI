@@ -134,6 +134,54 @@ Generated content can be validated through the actual execution pipeline.
 
 ---
 
+# 📸 Screenshots
+
+Store screenshots inside:
+
+```text
+docs/images/
+```
+
+Recommended:
+
+```text
+docs/images/
+├── banner.png
+├── architecture.png
+├── dashboard.png
+├── problem-workspace.png
+├── contest-workspace.png
+├── leaderboard.png
+├── ai-generation.png
+└── submission-detail.png
+```
+
+### Dashboard
+
+![Dashboard](./docs/images/dashboard.png)
+
+### Coding Workspace
+
+![Coding Workspace](./docs/images/problem-workspace.png)
+
+### Contest
+
+![Contest Workspace](./docs/images/contest-workspace.png)
+
+### Leaderboard
+
+![Leaderboard](./docs/images/leaderboard.png)
+
+### AI Problem Generation
+
+![AI Problem Generation](./docs/images/ai-generation.png)
+
+### Submission Details
+
+![Submission Details](./docs/images/submission-detail.png)
+
+---
+
 # 🏗️ Architecture
 
 JudgeX separates **web/API operations** from **untrusted code execution**.
@@ -783,54 +831,6 @@ Before publishing a release, test:
 - [ ] Organization access
 - [ ] Role permissions
 - [ ] Cross-organization isolation
-
----
-
-# 📸 Screenshots
-
-Store screenshots inside:
-
-```text
-docs/images/
-```
-
-Recommended:
-
-```text
-docs/images/
-├── banner.png
-├── architecture.png
-├── dashboard.png
-├── problem-workspace.png
-├── contest-workspace.png
-├── leaderboard.png
-├── ai-generation.png
-└── submission-detail.png
-```
-
-### Dashboard
-
-![Dashboard](./docs/images/dashboard.png)
-
-### Coding Workspace
-
-![Coding Workspace](./docs/images/problem-workspace.png)
-
-### Contest
-
-![Contest Workspace](./docs/images/contest-workspace.png)
-
-### Leaderboard
-
-![Leaderboard](./docs/images/leaderboard.png)
-
-### AI Problem Generation
-
-![AI Problem Generation](./docs/images/ai-generation.png)
-
-### Submission Details
-
-![Submission Details](./docs/images/submission-detail.png)
 
 ---
 
