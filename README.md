@@ -1,7 +1,7 @@
 # JudgeX AI
 
 <p align="center">
-  <img src="./docs/images/banner.png" alt="JudgeX AI Banner" width="900">
+  <img src="./docs/images/banner.png" alt="JudgeX AI Banner" width="200">
 </p>
 
 <h3 align="center">AI-Powered Multi-Tenant Coding Assessment & Contest Platform</h3>
@@ -135,26 +135,6 @@ Generated content can be validated through the actual execution pipeline.
 ---
 
 # 📸 Screenshots
-
-Store screenshots inside:
-
-```text
-docs/images/
-```
-
-Recommended:
-
-```text
-docs/images/
-├── banner.png
-├── architecture.png
-├── dashboard.png
-├── problem-workspace.png
-├── contest-workspace.png
-├── leaderboard.png
-├── ai-generation.png
-└── submission-detail.png
-```
 
 ### Dashboard
 
