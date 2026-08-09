@@ -957,18 +957,7 @@ These are the concepts that make JudgeX particularly valuable as a software engi
 
 ---
 
-# 💼 Resume Description
 
-### Short Version
-
-> **JudgeX AI — AI-Powered Coding Assessment Platform**  
-> Built a multi-tenant coding assessment platform using React, Node.js, Express, MongoDB, Redis, BullMQ, Socket.IO, and Docker, featuring asynchronous multi-language code execution, real-time verdicts, timed contests, role-based access control, leaderboards, and AI-assisted problem generation.
-
-### Strong Interview Version
-
-> JudgeX AI is a multi-tenant coding assessment platform I developed to allow organizations to create coding problems and conduct programming contests. The most challenging part was safely executing user-submitted code. I separated the execution system from the API using BullMQ and Redis. When a candidate submits code, the API creates a submission and queues a job. A separate worker consumes that job and executes the code inside an ephemeral Docker container. The result is stored and published through Redis Pub/Sub, and Socket.IO sends the verdict back to the appropriate frontend room in real time. The platform also includes JWT authentication, organization-level authorization, timed contests, leaderboards, email OTP verification, and AI-assisted problem generation.
-
----
 
 # 👨‍💻 Author
 
