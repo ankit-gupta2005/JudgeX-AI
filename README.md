@@ -889,51 +889,6 @@ JudgeX demonstrates practical software engineering concepts including:
 
 ---
 
-# 🎓 Why This Project Is Technically Interesting
-
-JudgeX is not simply a CRUD-based MERN application.
-
-The interesting engineering challenge is the **execution pipeline**.
-
-A submission must move through multiple independent components:
-
-```text
-React
-  ↓
-Express
-  ↓
-MongoDB
-  ↓
-BullMQ
-  ↓
-Redis
-  ↓
-Worker
-  ↓
-Docker
-  ↓
-Redis Pub/Sub
-  ↓
-Socket.IO
-  ↓
-React
-```
-
-This introduces real-world concepts such as:
-
-- asynchronous job processing
-- distributed components
-- event-driven communication
-- container isolation
-- real-time updates
-- database persistence
-- fault boundaries
-- horizontal scaling
-
-These are the concepts that make JudgeX particularly valuable as a software engineering project.
-
----
-
 
 
 # 👨‍💻 Author
