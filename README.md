@@ -168,9 +168,6 @@ JudgeX separates **web/API operations** from **untrusted code execution**.
 
 This is one of the most important architectural decisions in the project.
 
-<p align="center">
-  <img src="./docs/images/architecture.png" alt="JudgeX AI Architecture" width="900">
-</p>
 
 ### Architecture Flow
 
